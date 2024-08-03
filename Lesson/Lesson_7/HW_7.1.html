@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+    <style>
+      body{
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .left, .mid, .right{
+        width: 15vw;
+        height: 40vh;
+        padding: 1px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color:  rgba(217, 217, 217, 0.30);;
+      }
+      .left, .sale_1{
+        border: 4px solid #554C4C;
+      }
+      .mid, .sale_2{
+        border: 4px solid #65856E;
+      }
+      .right, .sale_3{
+        border: 4px solid #554C4C;
+      }
+
+      .sale_1, .sale_2, .sale_3{
+        width: 4vw;
+        height: 8vh;
+        position: absolute;
+        top: -4vh;
+        right: 5vw;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .p_1{
+        font-size: 30px;
+      }
+
+    </style>
+</head>
+<body>
+
+      <div class="left">
+        <h1>Lorem</h1>
+        <p class="p_1">Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit.</p>
+        <div class="sale_1">
+          <img src="Ds3%20Tool.png">
+        </div>
+      </div>
+      <div class="mid">
+        <h1>Lorem</h1>
+        <p class="p_1">Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit.</p>
+        <div class="sale_2">
+          <img src="Chessboard.png">
+        </div>
+      </div>
+      <div class="right">
+        <h1>Lorem</h1>
+        <p class="p_1">Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit.</p>
+        <div class="sale_3">
+          <img src="Battle.png">
+        </div>
+      </div>
+
+</body>
+</html>
